@@ -6,9 +6,9 @@
      
     <bean id="dataSourceSpied" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/spring_mvc"/>
-        <property name="username" value="root"/>
-        <property name="password" value="dntk"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/데이터베이스명"/>
+        <property name="username" value="아이디"/>
+        <property name="password" value="비밀번호"/>
     </bean>
     
      <bean id="dataSource" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
